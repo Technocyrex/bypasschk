@@ -58,7 +58,7 @@ def ex(update, context):
         zipk = context.args[0]
         open('1.txt','w').write(zipk)
         update.message.reply_text(f"Bypassing  your Link: {zipk}")
-        os.system('python ex.py')
+        os.system('python3 ex.py')
         zkm = open('2.txt', 'r').read()
         update.message.reply_text(f"{zkm}")
 
@@ -66,7 +66,7 @@ def gp(update, context):
         zipk = context.args[0]
         open('1.txt','w').write(zipk)
         update.message.reply_text(f"Bypassing  your Link: {zipk}")
-        os.system('python gp.py')
+        os.system('python3 gp.py')
         update.message.reply_text(f"Done")
         zkm = open('2.txt', 'r').read()
         update.message.reply_text(f"{zkm}")
@@ -75,7 +75,7 @@ def droplink(update, context):
         zipk = context.args[0]
         open('1.txt','w').write(zipk)
         update.message.reply_text(f"Bypassing  your Link: {zipk}")
-        os.system('python droplink.py')
+        os.system('python3 droplink.py')
         zkm = open('2.txt', 'r').read()
         update.message.reply_text(f"{zkm}")
 
@@ -83,7 +83,7 @@ def sd(update, context):
         zipk = context.args[0]
         open('1.txt','w').write(zipk)
         update.message.reply_text(f"Bypassing  your Link: {zipk}")
-        os.system('python sd.py')
+        os.system('python3 sd.py')
         zkm = open('2.txt', 'r').read()
         update.message.reply_text(f"{zkm}")
 
@@ -91,7 +91,7 @@ def lv(update, context):
         zipk = context.args[0]
         open('1.txt','w').write(zipk)
         update.message.reply_text(f"Bypassing  your Link: {zipk}")
-        os.system('python ex.py')
+        os.system('python3 ex.py')
         zkm = open('2.txt', 'r').read()
         update.message.reply_text(f"{zkm}")
 
