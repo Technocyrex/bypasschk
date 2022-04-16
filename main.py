@@ -95,7 +95,7 @@ def lv(update, context):
         zkm = open('2.txt', 'r').read()
         update.message.reply_text(f"{zkm}")
 
-updater = telegram.ext.Updater(TOKEN, use_context=True)
+updater = telegram.ext.Updater("5306449771:AAHWlzrbaHCBqCOKQm3bWBjUUZ6VEDwik1k", use_context=True)
 disp = updater.dispatcher
 disp.add_handler(telegram.ext.CommandHandler("start", start))
 disp.add_handler(telegram.ext.CommandHandler("help", help))
